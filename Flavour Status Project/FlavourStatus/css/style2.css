@@ -1,6 +1,6 @@
 .food-container {
   margin: auto;
-  width: 60%;
+  width: 100%;
   padding: 10px;
   text-align: center;
 }
@@ -81,14 +81,24 @@ p.item_name
   }
 
   
-  
+  #tagline
+  {
+    text-align: center;
+    margin: 0 auto;
+  }
 
-  #tagline h4 span
+  #tagline img{
+    width: fit-content;
+    height: auto;
+    max-width: 50%;
+  }
+
+  #tagline h2 span
   {
     color: #4b1868;
   }
 
-  #tagline h4 
+  #tagline h2 
   {
     color: #ffffff;
     font-weight: bold;
